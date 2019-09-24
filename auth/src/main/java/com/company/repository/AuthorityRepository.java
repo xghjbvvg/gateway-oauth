@@ -5,9 +5,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 /**
- * Created by SuperS on 2017/9/25.
+ * Created by SuperS on 2019/9/24.
  *
- * @author SuperS
+ * @author 黄炽鑫
  */
 @Repository
 public interface AuthorityRepository extends JpaRepository<Authority,Long> {

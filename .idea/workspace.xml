@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1772ac4a-bc01-408c-b894-5809cbff9c0a" name="Default Changelist" comment="" />
+    <list default="true" id="1772ac4a-bc01-408c-b894-5809cbff9c0a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/repository/AuthorityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/repository/AuthorityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/service/security/JPAUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/service/security/JPAUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-zuul/src/main/java/com/company/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-zuul/src/main/java/com/company/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-common/src/main/java/com/company/domain/Authority.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-common/src/main/java/com/company/domain/Authority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-common/src/main/java/com/company/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-common/src/main/java/com/company/domain/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-common/src/main/java/com/company/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-common/src/main/java/com/company/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-common/src/main/java/com/company/domain/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-common/src/main/java/com/company/domain/base/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-common/src/main/java/com/company/enumeration/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-common/src/main/java/com/company/enumeration/ResultCode.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -31,6 +52,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/Android" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -140,11 +162,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568557220499</updated>
-      <workItem from="1568557221771" duration="56110000" />
+      <workItem from="1568557221771" duration="56964000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

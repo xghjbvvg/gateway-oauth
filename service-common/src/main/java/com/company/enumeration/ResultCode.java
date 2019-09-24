@@ -2,11 +2,9 @@ package com.company.enumeration;
 
 
 /**
- * 〈响应状态码〉
+ * Created by SuperS on 2019/9/23.
  *
- * @author Curise
- * @create 2018/12/13
- * @since 1.0.0
+ * @author 黄炽鑫
  */
 public enum ResultCode {
 

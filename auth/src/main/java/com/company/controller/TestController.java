@@ -4,9 +4,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by SuperS on 2017/9/26.
+ * Created by SuperS on 2019/9/24.
  *
- * @author SuperS
+ * @author 黄炽鑫
  */
 @RestController
 public class TestController {

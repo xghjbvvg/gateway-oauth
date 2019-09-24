@@ -18,13 +18,7 @@ import org.springframework.security.web.server.SecurityWebFilterChain;
 @EnableWebSecurity
 @Order(99)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
-//    @Bean
-//    public SecurityWebFilterChain springSecurityFilterChain(ServerHttpSecurity http) {
-////        logger.info("WebFlux Security begin");
-//        return http
-//                .csrf().disable()
-//                .build();
-//    }
+
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {

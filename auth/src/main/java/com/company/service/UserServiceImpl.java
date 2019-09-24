@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
 
 /**
- * Created by SuperS on 2017/9/25.
+ * Created by hcx on 2019/9/24.
  *
- * @author SuperS
+ * @author 黄炽鑫
  */
 @Service
 public class UserServiceImpl implements UserService {
