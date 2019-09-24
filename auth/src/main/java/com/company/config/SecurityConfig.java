@@ -17,7 +17,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
 /**
- * Created by SuperS on 2019/9/24.
+ * Created by hcx on 2019/9/24.
  *
  * @author 黄炽鑫
  */

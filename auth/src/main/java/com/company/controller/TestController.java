@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by SuperS on 2019/9/24.
+ * Created by hcx on 2019/9/24.
  *
  * @author 黄炽鑫
  */
