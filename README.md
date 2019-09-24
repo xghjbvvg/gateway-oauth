@@ -1,5 +1,5 @@
 # gateway-oauth
-## auth ：权限控制中心
+## auth ：权限控制服务中心
 ## gateway-service ：spring cloud gateway 与 oauth2 整合
 ## gateway-zuul ： spring cloud zuul 与oauth2整合
 ## user-service ：用户微服务
