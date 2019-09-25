@@ -5,11 +5,11 @@
 ## user-service ：用户微服务
 ## service-common 公共模块，目前主要是JavaBean
 ## service-eureka ：项目中没有使用该注册中心，而是用了一个eureka在线集群
-获取token（post请求）
-client 模式：http://localhost:8763/oauth/token?grant_type=client_credentials&scope=select&client_id=client_1&client_secret=123456
-password模式：http://localhost:8763/oauth/token?grant_type=client_credentials&scope=select&client_id=client_1&client_secret=123456 
+#### 获取token（post请求）
+１．client 模式：http://localhost:8763/oauth/token?grant_type=client_credentials&scope=select&client_id=client_1&client_secret=123456
+２．password模式：http://localhost:8763/oauth/token?grant_type=client_credentials&scope=select&client_id=client_1&client_secret=123456 
 
-请求资源（get）
+#### 请求资源（get）
 http://localhost:8763/user/query?access_token=f63eda98-2434-49c2-b051-d8d6cd045c9e
 
 #### 参考链接：https://gitee.com/singlekingdom/spring-cloud-auth-gateway-system
