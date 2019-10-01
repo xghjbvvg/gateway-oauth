@@ -5,6 +5,7 @@
 ## user-service ：用户微服务
 ## service-common 公共模块，目前主要是JavaBean
 ## service-eureka ：项目中没有使用该注册中心，而是用了一个eureka在线集群
+## file.sql 数据库文件
 #### 获取token（post请求）
 １．client 模式：http://localhost:8763/oauth/token?grant_type=client_credentials&scope=select&client_id=client_1&client_secret=123456<br/>
 ２．password模式：http://localhost:8763/oauth/token?username=fpf&password=fpf&grant_type=password&scope=select&client_id=client_2&client_secret=123456
