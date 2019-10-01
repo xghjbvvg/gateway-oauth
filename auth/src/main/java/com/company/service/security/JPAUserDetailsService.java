@@ -24,6 +24,7 @@ public class JPAUserDetailsService implements UserDetailsService {
         if (user == null) {
             throw new UsernameNotFoundException(username);
         }
+        System.out.println(user);
         return user;
     }
 }

@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1772ac4a-bc01-408c-b894-5809cbff9c0a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/config/AuthorizationServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/config/ResourceServerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/repository/AuthorityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/repository/AuthorityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/repository/RoleRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/service/security/JPAUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/service/security/JPAUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/test/java/com/company/AuthApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/test/java/com/company/AuthApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-common/src/main/java/com/company/ServiceCommonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-common/src/main/java/com/company/ServiceCommonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/company/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/company/controller/UserController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +82,22 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.UserServiceApplication">
+    <configuration name="AuthApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.AuthApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AuthApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="auth" />
       <extension name="coverage">
@@ -139,6 +156,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.AuthApplication (1)" />
+        <item itemvalue="JUnit.AuthApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +170,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568557220499</updated>
-      <workItem from="1568557221771" duration="57393000" />
+      <workItem from="1568557221771" duration="67582000" />
+      <workItem from="1569855747984" duration="2606000" />
     </task>
     <servers />
   </component>
@@ -164,7 +183,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

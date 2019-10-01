@@ -29,8 +29,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Bean
     public PasswordEncoder passwordEncoder() {
-        //return new BCryptPasswordEncoder();
-        return new NoEncryptPasswordEncoder();
+//       return PasswordEncoderFactories.createDelegatingPasswordEncoder();
+        return new BCryptPasswordEncoder();
+//        return new NoEncryptPasswordEncoder();
     }
  /*   @Bean
     @Override
@@ -58,7 +59,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.userDetailsService(jpaUserDetailsService).passwordEncoder(passwordEncoder());
+        auth.userDetailsService(jpaUserDetailsService).passwordEncoder(new BCryptPasswordEncoder());
     }
 
     //不定义没有password grant_type
@@ -69,7 +70,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
     @Autowired//注意这个方法是注入的
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-        auth.userDetailsService(jpaUserDetailsService);
+        auth.userDetailsService(jpaUserDetailsService).passwordEncoder(passwordEncoder());
     }
 
 

@@ -23,7 +23,7 @@ public class UserController {
     }
 
     @GetMapping("/query")
-    @PreAuthorize("hasAnyAuthority('query')")
+//    @PreAuthorize("hasAnyAuthority('query')")
     public String query() {
         return "具有query权限";
     }

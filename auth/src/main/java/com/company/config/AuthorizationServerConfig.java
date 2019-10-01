@@ -1,12 +1,14 @@
 package com.company.config;
 
 import com.company.service.security.JPAUserDetailsService;
+import org.bouncycastle.jcajce.provider.keystore.BC;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
@@ -64,12 +66,12 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
                 .authorizedGrantTypes("client_credentials", "refresh_token")
                 .scopes("select")
                 .authorities("client")
-                .secret("123456")
+                .secret(new BCryptPasswordEncoder().encode("123456"))
                 .and().withClient("client_2")
 //                .resourceIds(DEMO_RESOURCE_ID)
                 .authorizedGrantTypes("password", "refresh_token")
                 .scopes("select")
                 .authorities("client")
-                .secret("123456");
+                .secret(new BCryptPasswordEncoder().encode("123456"));
     }
 }
