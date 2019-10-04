@@ -31,6 +31,10 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
                 .and()
                 .authorizeRequests()
                 .antMatchers("/user/register").permitAll()
+                .antMatchers("/user/isExistUsername").permitAll()
+                .antMatchers("/user/isExistPhone").permitAll()
+                .antMatchers("/user/isExistEmail").permitAll()
+                .antMatchers("/user/verificationCode").permitAll()
                 .antMatchers("/user/**").authenticated()
                 .and()
                 .httpBasic();

@@ -27,11 +27,11 @@ public class User extends BaseEntity implements UserDetails {
     private Long id;
     private String username;
     private String password;
-    private String firstName;
-    private String lastName;
+    private String phone;
     @Email
     private String email;
     private String imageUrl;
+    private String createTime;
 
 
     @JsonIgnore

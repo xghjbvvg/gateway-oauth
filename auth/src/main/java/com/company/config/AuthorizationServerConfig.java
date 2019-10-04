@@ -5,6 +5,7 @@ import org.bouncycastle.jcajce.provider.keystore.BC;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -14,6 +15,8 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.A
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
+import org.springframework.security.oauth2.provider.token.AuthorizationServerTokenServices;
+import org.springframework.security.oauth2.provider.token.DefaultTokenServices;
 import org.springframework.security.oauth2.provider.token.store.redis.RedisTokenStore;
 
 /**
@@ -43,7 +46,8 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
         endpoints
                 .authenticationManager(authenticationManager)
                 .userDetailsService(jpaUserDetailsService)//若无，refresh_token会有UserDetailsService is required错误
-                .tokenStore(new MyRedisTokenStore(redisConnectionFactory))
+//                .tokenStore(new MyRedisTokenStore(redisConnectionFactory))
+                .tokenServices(tokenServices())
                 .allowedTokenEndpointRequestMethods(HttpMethod.GET, HttpMethod.POST);
 
     }
@@ -73,5 +77,17 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
                 .scopes("select")
                 .authorities("client")
                 .secret(new BCryptPasswordEncoder().encode("123456"));
+    }
+
+    @Primary
+    @Bean
+    public AuthorizationServerTokenServices tokenServices() {
+        DefaultTokenServices defaultTokenServices = new DefaultTokenServices();
+        defaultTokenServices.setAccessTokenValiditySeconds(24*60*60);
+        defaultTokenServices.setRefreshTokenValiditySeconds(24*60*60);
+        defaultTokenServices.setSupportRefreshToken(true);
+        defaultTokenServices.setReuseRefreshToken(false);
+        defaultTokenServices.setTokenStore(tokenStore());
+        return defaultTokenServices;
     }
 }

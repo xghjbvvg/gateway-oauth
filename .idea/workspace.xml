@@ -2,14 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1772ac4a-bc01-408c-b894-5809cbff9c0a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/company/dao/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/company/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/company/service/IUserservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/company/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/company/util/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/company/util/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/company/util/MessageCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/mapper/userMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/config/AuthorizationServerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/service/security/JPAUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/company/service/security/JPAUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/test/java/com/company/AuthApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/test/java/com/company/AuthApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-common/src/main/java/com/company/ServiceCommonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-common/src/main/java/com/company/ServiceCommonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/company/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/resources/mybatis/MemberMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/resources/mybatis/PermissionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/resources/mybatis/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-common/src/main/java/com/company/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-common/src/main/java/com/company/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/company/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/company/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/company/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/company/config/ResourceServerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/company/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/company/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +41,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
+        <option value="XML" />
       </list>
     </option>
   </component>
@@ -48,7 +67,7 @@
     <property name="android.sdk.path" value="D:/Android" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gateway-zuul/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user-service/src/main/java/com/company/util" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -58,15 +77,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.repository" />
       <recent name="com.company.config" />
       <recent name="com.company.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\mavenProject2\spring-cloud-file-admin\user-service\src\main\java\com\company\util" />
       <recent name="F:\mavenProject2\spring-cloud-file-admin\auth\src\main\java\com\company" />
       <recent name="F:\mavenProject2\spring-cloud-file-admin\auth\src\main\java\com\company\service" />
       <recent name="F:\mavenProject2\spring-cloud-file-admin\service-common\src\main\java\com\company" />
       <recent name="F:\mavenProject2\spring-cloud-file-admin\auth\src\main\java\com\compony" />
-      <recent name="F:\mavenProject2\spring-cloud-file-admin\auth\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -81,7 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="AuthApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auth" />
       <extension name="coverage">
@@ -171,7 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568557220499</updated>
       <workItem from="1568557221771" duration="67582000" />
-      <workItem from="1569855747984" duration="2606000" />
+      <workItem from="1569855747984" duration="39331000" />
     </task>
     <servers />
   </component>
